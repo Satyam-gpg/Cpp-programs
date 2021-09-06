@@ -1,0 +1,41 @@
+ #include<iostream>
+
+using namespace std;
+int main( )
+{
+char c;
+
+cout <<"Enter a alphabet:";
+cin >> c;
+
+c=tolower(c);
+switch (c)
+{
+
+case 'a':
+
+cout <<"You entered a, its a vowel"<< endl;
+
+case 'e':
+
+cout <<"You entered e, its a vowel"<< endl;
+
+case 'i':
+
+cout <<"You entered i, its a vowel"<< endl;
+
+case 'o':
+
+cout <<"You entered o, its a vowel"<< endl;
+
+case 'u':
+
+cout <<"You entered u, its a vowel"<< endl;
+default:
+
+cout <<"You entered consonant";
+}
+
+getch();
+return 0;
+}
