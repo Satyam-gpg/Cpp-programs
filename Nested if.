@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+int main( )
+{
+int i = 110;
+if (i == 110)
+{
+if (i < 115)
+
+cout<<"i is smaller than 115";
+if (i < 112)
+
+cout<<"i is smaller than 112 too";
+else
+
+cout<<"i is greater than 115";
+}
+return 0;
+}
