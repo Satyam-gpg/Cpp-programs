@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+int main( )
+{
+int area,length,breath;
+
+cout << "Enter the length and breath of rectangle:";
+cin >> lenth>>breath;
+
+area = length*breath ;
+
+cout << "Area of rectangle: " << area << endl;
+return 0;
+}
