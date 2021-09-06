@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+int main( )
+{
+int area,base,perpendicular;
+
+cout << "Enter the length and breath of rectangle:";
+cin >> base>>perpendicular;
+
+area = 0.5*base*perpendicular ;
+
+cout << "Area of right angled tangle: " << area << endl;
+return 0;
+}
