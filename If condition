@@ -1,0 +1,14 @@
+ #include<iostream>
+
+using namespace std;
+int main( )
+{
+int i = 12;
+if (i > 10)
+{
+
+cout<<"10 is less than 12";
+}
+
+cout<<"not inside if condition";
+}
