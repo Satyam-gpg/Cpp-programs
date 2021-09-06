@@ -1,0 +1,30 @@
+#include<iostream>
+
+using namespace std;
+int main( )
+{
+int num, i;
+float marks[10], per=0, total=0;
+
+cout<<"Enter number of subject: ";
+cin>>num;
+
+cout<<"Enter marks of "<< num<<" subjects";
+
+for(i=0; i< num; i++)
+{
+cin>>marks[i];
+}
+
+for(i=0; i< num; i++)
+{
+
+total=total+marks[i];
+}
+
+per=total/num;
+
+cout<<"Percentage: "<< per;
+
+getch();
+}
