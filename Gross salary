@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+int main( )
+{
+int basic;
+float da,ta,gross;
+
+cout<<"Enter the Basic salary"<< endl;
+cin>>basic;
+
+da=0.1*basic;
+
+ta=0.12*basic;
+
+gross=basic +da+ta;
+
+cout<<"gross salary is "<< gross<< endl;
+return ();
+}
